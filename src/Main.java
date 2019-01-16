@@ -31,5 +31,16 @@ public class Main {
         System.out.println("Drukarka nr " + ++nrDrukarki);
         drukarka2.wydruk();
 
+        nrDrukarki = 0;
+        System.out.println("Drukarki w pokoju 123");
+        System.out.println("Drukarka nr " + ++nrDrukarki);
+        System.out.printf(drukarka1.getinfo());
+        System.out.println("Drukarka nr " + ++nrDrukarki);
+        System.out.printf(drukarka2.getinfo());
+
+
+
+
+
     }
 }
