@@ -6,15 +6,15 @@ public class OpisPrzedmiotu {
     double dimensionsWidth;
     double dimensionsDepth;
 
-//    public OpisPrzedmiotu(String nazwa, String typ, boolean prinColor, double dimensionsHeigh,
-//                          double dimensionsWidth, double dimensionsDepth) {
-//        this.nazwa = nazwa;
-//        this.typ = typ;
-//        this.prinColor = prinColor;
-//        this.dimensionsHeigh = dimensionsHeigh;
-//        this.dimensionsWidth = dimensionsWidth;
-//        this.dimensionsDepth = dimensionsDepth;
-//    }
+    public OpisPrzedmiotu(String nazwa, String typ, boolean prinColor, double dimensionsHeigh,
+                          double dimensionsWidth, double dimensionsDepth) {
+        this.nazwa = nazwa;
+        this.typ = typ;
+        this.prinColor = prinColor;
+        this.dimensionsHeigh = dimensionsHeigh;
+        this.dimensionsWidth = dimensionsWidth;
+        this.dimensionsDepth = dimensionsDepth;
+    }
 
 
 
