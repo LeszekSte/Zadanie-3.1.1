@@ -30,12 +30,12 @@ public class OpisPrzedmiotu {
     String getinfo() {
         int kolejnosc = 0;
         return (
-                nazwa + " " +
-                typ + " " +
-                prinColor + " " +
-                dimensionsHeigh + " " +
-                dimensionsWidth + " " +
-                dimensionsDepth + "\n");
+                nazwa + ", " +
+                        typ + ", " +
+                        "Wydruk Kolor -" + " " + prinColor + ", " +
+                        dimensionsHeigh + ", " +
+                        dimensionsWidth + ", " +
+                        dimensionsDepth + "\n");
     }
 
 
